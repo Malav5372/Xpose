@@ -125,10 +125,6 @@ To create the GIF above:<br>
 
 ---
 
-#### Web Demo
-A web demo was integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio) (credit to [@AK391](https://github.com/AK391)). 
-It uses XPOSE-L to run CPU inference on short video clips.
-
 ## Understanding the terms AP and TTA
 
 ### Average Precision (AP):
