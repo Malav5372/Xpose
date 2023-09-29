@@ -129,6 +129,21 @@ To create the GIF above:<br>
 A web demo was integrated to [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio) (credit to [@AK391](https://github.com/AK391)). 
 It uses XPOSE-L to run CPU inference on short video clips.
 
+## Understanding the terms AP and TTA
+
+### Average Precision (AP):
+
+Average Precision, often abbreviated as "AP," is a critical metric in the field of computer vision and object detection. It serves as a measure of the accuracy and reliability of detection models, including XPOSE. AP evaluates how well a model correctly identifies and localizes objects of interest within images.
+
+In the context of XPOSE, a higher AP score signifies superior performance. It indicates that our method excels at not only detecting human poses and keypoints but also precisely localizing them within images. AP is a valuable benchmark that reflects the precision and robustness of our technology, ensuring that it delivers dependable results.
+
+### Test-Time Augmentation (TTA):
+
+Test-Time Augmentation, abbreviated as TTA, is a technique used in computer vision and deep learning to improve the robustness and accuracy of machine learning models during the inference or testing phase. TTA achieves this by applying a set of data transformations and augmentations to input images just before making predictions.
+
+Instead of relying on a single version of an input image, TTA creates multiple variations of that image by applying transformations such as rotations, flips, cropping, and color adjustments. These augmented versions provide the model with different perspectives and variations of the same data, effectively increasing the diversity of the input.
+
+During prediction, the model generates results for each augmented version of the input image. These individual predictions are then typically combined in some way, such as averaging or voting, to produce a final prediction. By considering multiple perspectives of the same input data, TTA helps the model become more robust to variations in lighting, orientation, and other factors, ultimately leading to more accurate and reliable predictions.
 
 ## COCO Experiments
 Download the COCO dataset:  `$ sh data/scripts/get_coco_kp.sh`
