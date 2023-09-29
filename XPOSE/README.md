@@ -59,7 +59,7 @@ To generate the four images in the GIF above:
 XPOSE runs fastest on low resolution video with few people in the frame. This demo runs XPOSE-L on a single-person 480p dance video using an input size of 1024. 
 The inference speed is **~9.5 FPS** on the CPU, and **~60 FPS** on the TITAN Xp.
 
-**CPU inference:**<br>
+**Implementation-CPU inference:**<br>
 ![alt text](./res/yBZ0Y2t0ceo_480p_xpose_l_coco_cpu.gif)<br>
 
 To display the results in real-time: <br> 
@@ -73,7 +73,7 @@ To create the GIF above:<br>
 #### Flash Mob Video
 This demo runs XPOSE-L on a 720p flash mob video using an input size of 1280.
 
-**GPU inference:**<br>
+**Implementation-GPU inference:**<br>
 ![alt text](./res/2DiQUX11YaY_720p_xpose_l_coco_gpu.gif)<br>
 
 To display the results in real-time: <br> 
@@ -88,7 +88,7 @@ To create the GIF above:<br>
 This demo runs XPOSE-M on a 480p clip from the TV show _Squid Game_ using an input size of 1024.
 The plotted poses constitute keypoint objects only.
 
-**GPU inference:**<br>
+**Implementation-GPU inference:**<br>
 ![alt text](./res/nrchfeybHmw_480p_xpose_m_coco_gpu.gif)<br>
 
 To display the results in real-time:<br>
@@ -102,7 +102,7 @@ To create the GIF above:<br>
 #### Squash Video
 This demo runs XPOSE-L on a 1080p slow motion squash video. It uses a simple player tracking algorithm based on the frame-to-frame pose differences.
 
-**GPU inference:**<br>
+**Implementation-GPU inference:**<br>
 ![alt text](./res/squash_inference_xpose_l_coco.gif)<br>
 
 To display the inference results in real-time: <br> 
