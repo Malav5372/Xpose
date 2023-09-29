@@ -1,10 +1,28 @@
-# XPOSE
+# XPOSE: Where Vision Meets Precision
 
-
+## Project Description:
 
 XPOSE is an efficient single-stage multi-person human pose estimation method that models 
-**k**eypoints **a**nd **p**oses **a**s **o**bjects within a dense anchor-based detection framework.
-XPOSE simultaneously detects _pose objects_ and _keypoint objects_ and fuses the detections to predict human poses:
+keypoints and poses as objects within a dense anchor-based detection framework.
+XPOSE simultaneously detects _pose objects_ and _keypoint objects_ and fuses the detections to predict human poses
+
+Xpose stands as one of my advanced projects, representing the culmination of expertise and innovation in computer vision. It is a cutting-edge human pose estimation project that combines the power of PyTorch and YOLOv5 (You Only Look Once version 5) for object detection. Xpose is meticulously designed to accurately and efficiently detect and predict the positions of key body keypoints in images.
+
+## Key Features:
+
+### Multi-Variant Precision: Xpose offers three distinct variants, each tailored to specific requirements, reflecting the depth of expertise behind this project:
+
+#### Xpose Lite: This variant is optimized for speed and real-time performance, making it ideal for applications where low latency is crucial.
+
+#### Xpose Pro: Xpose Pro strikes a balance between speed and accuracy, making it a versatile choice for a wide range of applications.
+
+#### Xpose Max: Xpose Max is designed for maximum accuracy and is capable of handling complex poses and scenarios with precision.
+
+#### State-of-the-Art Architecture: All variants of Xpose are built on state-of-the-art neural network architectures specifically designed for human pose estimation using PyTorch. These architectures have been fine-tuned and optimized to provide exceptional results.
+
+#### YOLOv5 Integration: Xpose integrates YOLOv5 (You Only Look Once version 5) for object detection, allowing for efficient and accurate detection of human keypoints within the context of the entire image.
+
+#### Efficient Training: Xpose models are trained efficiently using PyTorch and YOLOv5, with carefully chosen hyperparameters and data augmentation techniques.
 
 ![alt text](./res/xpose_inference.gif)
 
