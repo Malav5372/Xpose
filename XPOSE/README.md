@@ -113,7 +113,7 @@ To create the GIF above:<br>
 
 ---
 
-#### Depth Video
+#### Implemenation of Depth Video
 Pose objects generalize well and can even be detected in depth video. 
 Here XPOSE-L was run on a depth video from a [fencing action recognition dataset](https://ieeexplore.ieee.org/abstract/document/8076041?casa_token=Zvm7dLIr1rYAAAAA:KrqtVl3NXrJZn05Eb4KGMio-18VPHc3uyDJZSiNJyI7f7oHQ5V2iwB7bK4mCJCmN83NrRl4P). 
 
