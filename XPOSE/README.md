@@ -12,11 +12,11 @@ Xpose stands as one of my advanced projects, representing the culmination of exp
 
 ### Multi-Variant Precision: Xpose offers three distinct variants, each tailored to specific requirements, reflecting the depth of expertise behind this project:
 
-#### Xpose Lite (xpose-l): This variant is optimized for speed and real-time performance, making it ideal for applications where low latency is crucial.
+#### Xpose Lite (xpose-l)
 
-#### Xpose Pro (xpose-p): Xpose Pro strikes a balance between speed and accuracy, making it a versatile choice for a wide range of applications.
+#### Xpose Pro (xpose-p)
 
-#### Xpose Max (xpose-m): Xpose Max is designed for maximum accuracy and is capable of handling complex poses and scenarios with precision.
+#### Xpose Max (xpose-m)
 
 #### State-of-the-Art Architecture: All variants of Xpose are built on state-of-the-art neural network architectures specifically designed for human pose estimation using PyTorch. These architectures have been fine-tuned and optimized to provide exceptional results.
 
