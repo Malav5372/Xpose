@@ -15,6 +15,8 @@ previous single-stage methods like
 [HigherHRNet + SWAHR](https://github.com/greatlog/SWAHR-HumanPose), and
 [CenterGroup](https://github.com/dvl-tum/center-group):
 
+![accuracy_latency (2)](https://github.com/Malav5372/xpose/assets/144440737/c4fe117f-8c57-4c65-b82e-bcbb929ce873)
+
 ### Setup
 1. If you haven't already, [install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 2. Create a new conda environment with Python 3.6: `$ conda create -n xpose python=3.6`.
