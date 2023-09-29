@@ -61,6 +61,7 @@ The inference speed is **~9.5 FPS** on the CPU, and **~60 FPS** on the TITAN Xp.
 
 **Implementation-CPU inference:**<br>
 ![alt text](./res/yBZ0Y2t0ceo_480p_xpose_l_coco_cpu.gif)<br>
+![yBZ0Y2t0ceo_480p_xpose_l_coco_cpu](https://github.com/Malav5372/xpose/assets/144440737/2f507baf-6dea-4be1-8f2e-20e1f0a15742)
 
 To display the results in real-time: <br> 
 `$ python demos/video.py --face --display`
