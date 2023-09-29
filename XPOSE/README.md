@@ -15,13 +15,6 @@ previous single-stage methods like
 [HigherHRNet + SWAHR](https://github.com/greatlog/SWAHR-HumanPose), and
 [CenterGroup](https://github.com/dvl-tum/center-group):
 
-![alt text](./res/accuracy_latency.png)
-
-This repository contains the official PyTorch implementation for the paper: <br>
-Rethinking Keypoint Representations: Modeling Keypoints and Poses as Objects for Multi-Person Human Pose Estimation.
-
-Our code was forked from ultralytics/yolov5 at commit [5487451](https://github.com/ultralytics/yolov5/tree/5487451).
-
 ### Setup
 1. If you haven't already, [install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 2. Create a new conda environment with Python 3.6: `$ conda create -n xpose python=3.6`.
