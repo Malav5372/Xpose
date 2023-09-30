@@ -36,7 +36,7 @@ previous single-stage methods like
 1. If you haven't already, [install Anaconda or Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 2. Create a new conda environment with Python 3.6: `$ conda create -n xpose python=3.6`.
 3. Activate the environment: `$ conda activate xpose`
-4. Clone this repo: `$ git clone https://github.com/Malav5372/xpose.git`
+4. Clone this repo: `$ git clone https://github.com/Malav5372/Xpose.git`
 5. Install the dependencies: `$ cd xpose && pip install -r requirements.txt`
 6. Download the trained models: `$ python data/scripts/download_models.py`
 
