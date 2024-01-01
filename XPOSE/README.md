@@ -216,8 +216,6 @@ python train.py \
 --workers 128
 ```
 
-**Note:** [DDP](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) is usually recommended but we found training was less stable for XPOSE-P/M using DDP. I am investigating this issue.
-
 ## CrowdPose Experiments
 - Install the [CrowdPose API](https://github.com/Jeff-sjtu/CrowdPose/tree/master/crowdpose-api) to your conda environment: <br>
 `$ cd .. && git clone https://github.com/Jeff-sjtu/CrowdPose.git` <br>
