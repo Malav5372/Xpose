@@ -1,9 +1,9 @@
 # XPOSE: Where Vision Meets Precision
 
 ## Project Description:
-XPOSE stands at the forefront of human pose estimation, setting a new standard for precision and efficiency. It represents a state-of-the-art, efficient single-stage method that excels at estimating the poses of multiple individuals within complex scenes. XPOSE adopts a groundbreaking approach by modeling both keypoints and poses as distinct objects, meticulously analyzed within a dense anchor-based detection framework.
+XPOSE stands at the forefront of human pose estimation, setting a new standard for precision and efficiency. It represents a state-of-the-art, efficient single-stage method that excels at estimating the poses of multiple individuals within complex scenes.
 
-Xpose stands as one of my advanced projects, representing the culmination of expertise and innovation in computer vision. It is a cutting-edge human pose estimation project that combines the power of PyTorch and YOLOv5 (You Only Look Once version 5) for object detection. Xpose is meticulously designed to accurately and efficiently detect and predict the positions of key body keypoints in images.
+It is a cutting-edge human pose estimation project that combines the power of PyTorch and YOLOv5 (You Only Look Once version 5) for object detection. Xpose is meticulously designed to accurately and efficiently detect and predict the positions of key body keypoints in images.
 
 ## Key Features:
 
